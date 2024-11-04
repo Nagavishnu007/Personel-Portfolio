@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website </title>
+    <link rel="stylesheet" href="/style.css">
+    <script src="https://kit.fontawesome.com/46cd2b7883.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        
+        <div class="container"> 
+             <nav>
+                <h2><span>V</span>ishnu</h2> 
+
+               <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#Contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+               </ul>
+               <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+    
+            <div class="header-text">
+                  <p>Web Developer</p> 
+                  <h2>Hi, I'm <span>Vishnu</span><br>from Tamil Nadu</h2>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!--About me -->
+
+    <div id="about">
+
+         <div class="container">
+            
+             <div class="row">
+
+                       <div class="about-col-1">  
+                              <img src="/vishnupic2.png" alt="vishnupic">
+                       </div>
+
+                        <div class="about-col-2">
+
+                            <h2 class="sub-title">About me</h2>
+
+                            <p class="para-align">
+                                I am Nagavishnu, a recent graduate with a Bachelor's degree from KLN Arts and Science College.
+                                 I am from Madurai, Tamil Nadu. My strengths are being a self-motivated person and a self-learner.
+                                  My short-term goal is to secure a position in a reputed company, and my long-term goal is to achieve 
+                                  a high position and become a responsible person in my field. I am looking for a Junior Front-End Developer 
+                                  position and I have excellent skills and communication abilities.
+                            </p>
+
+                          <div class="tab-titles">
+                            
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                             
+                        </div>   
+                        
+                        <div class="tab-content active-tab" id="skills">
+                            <ul>
+                                <li><span>UI</span><br>Desiging web interfaces</li>
+                                <li><span>Web Developer</span><br>Website Developer</li>
+                                <li><span>Layout Developer</span><br>Resposive Developer</li>
+                            </ul>
+                        </div>
+
+                        <div class="tab-content" id="education">
+                            <ul>
+                                <li><span>UG</span><br>Bachelor of Commerce(B.Com)<br>
+                                               KLN Arts and Science Collge</li>
+                                <li><span>HSC</span><br>The TVS School <br>
+                                               With 85%</li>
+                                <li><span>SSC</span><br>M.R.M.S School <br>
+                                               With 73% </li>
+                            </ul>
+                        </div>
+                         
+                    </div>  <!--about-col 2 div-->
+
+            </div>          <!--row div-->   
+
+         </div>             <!--container div-->
+
+    </div>                   <!--id-about div-->
+
+    <!--Services-->
+    
+    <div id="services">
+
+        <div class="container">
+
+            <h1 class="sub-title">My services</h1>
+
+            <div class="services-list">
+
+
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>Youtube Clone App</h2>
+                    <p style="color:rgb(138, 138, 130);">
+                        Design reusable React components for the YouTube clone, including 
+                          video player, sidebar, navbar, search bar, and video thumbnails
+                      Implement React Router for navigation between pages such as the home 
+                      feed, video details, and search results.Use YouTube Data API 
+                      to fetch video data, channel info, comments, and search results dynamically.
+
+                    </p>
+                    <a href="http://youtube-clone-nv7.netlify.app">Learn more</a>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Weather App</h2>
+                    <p style="color:rgb(138, 138, 130);">
+                        Use a weather API (like OpenWeatherMap) to fetch real-time 
+                        weather data based on the user's location or search query.
+                        Utilize React’s useState and useEffect hooks to manage and 
+                        update weather data and loading states dynamically.
+                        Implement browser geolocation API to automatically detect and 
+                        display weather for the user's current location
+
+                    </p>
+                    <a href="http://weather-app-nv7.netlify.app">Learn more</a>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>Static Website</h2>
+                    <p style="color:rgb(138, 138, 130);">
+                        Build the foundation of the website using semantic HTML elements like headers, 
+                        paragraphs, images, and links for clear structure and content organization
+                        Apply CSS to style the layout, typography, colors, and spacing, ensuring a visually
+                        appealing and consistent design across pages.Since it’s a static site, there’s no
+                      server-side processing or database, with all content being hardcoded and loaded 
+                      from HTML files directly.
+
+                    </p>
+                    <a href="https://github.com/Nagavishnu007/Static-website.git">Learn more</a>
+                </div>
+
+               
+   
+            </div>   <!--services-list div-->
+        </div>       <!--container div-->
+    </div>           <!--services div-->
+
+   <!---Contact--> 
+   <div id="Contact">
+
+       <div class="container">
+ 
+            <div class="row">
+
+                <div class="contact-left">
+
+                   <h1 class="sub-title">Contact Me</h1>
+                   <p><i class="fa-solid fa-paper-plane"></i>nagavishnu54321@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>8838846835</p>
+
+               <div class="social-icons">
+                       <a href="https://www.linkedin.com/in/vishnu-frontenddeveloper"><i class="fa-brands fa-linkedin"></i></a>
+                       <a href="https://www.instagram.com/v3_vishnu_07?igsh=MXJjcXF3b2xhdW1waQ== "><i class="fa-brands fa-instagram"></i></a>
+               </div>
+
+                <a href="https://drive.google.com/file/d/1iSl3c1KMyglEQPlL-URoJHmPiq_C53tz/view?usp=sharing" download class="btn2">Download CV</a>
+
+               </div>  <!--contact-left div-->
+
+               <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <div class="btn-style">
+                        <button type="submit" class="submit-style">Submit</button>
+                    </div>
+                    </form>
+               </div>
+
+           </div> <!--container div-->
+
+        </div>    <!--contact div-->  
+
+        <div class="copyright">
+            <p>Developed by Vishnu <i class="fa-solid fa-heart"></i></p>
+        </div>
+   </div>
+
+   <!--Scripts code-->
+
+    <script>
+        var tablinks=document.getElementsByClassName("tab-links")
+        var tabcontents=document.getElementsByClassName("tab-content")
+
+           function opentab(tabname){
+                  for(tablink of tablinks){
+                    tablink.classList.remove("active-link")
+                  }
+                  for(tabcontent of tabcontents){
+                    tabcontents.classList.remove("active-tab")
+                  }
+                  event.currentTarget.classList.add("active-link")
+                  document.getElementById(tabname).classList.add("active-tab")
+           }
+         
+    </script>
+
+    <script>
+        var sidemen=document.getElementById("sidemenu")
+
+        function openmenu(){
+             sidemen.style.right="0"
+        }
+
+        function closemenu(){
+            sidemen.style.right="-150px"
+        }
+    </script>
+
+</body>
+
+</html>

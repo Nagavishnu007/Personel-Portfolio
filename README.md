@@ -1,1 +1,1 @@
-# Personel-Portfolio
+The Personal Portfolio website is a single-page Application designed to highlight your professional skills, projects, work experience, and personal achievements. It serves as an online resume that potential employers, clients, or collaborators can explore to learn more about you. This project involves using HTML for content structure, CSS for styling and layout, and JavaScript for interactivity.
